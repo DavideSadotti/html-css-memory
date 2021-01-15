@@ -9,9 +9,18 @@ body{
   background-color: #add8e6;
 }
 
+/* NAVBAR */
 .titolo{
   font-size: 70px;
   color: white;
   text-align: center;
   text-shadow: 1px 1px #000000;
+}
+
+/* MAIN */
+
+
+/* FOOTER */
+.made-by{
+  text-align: center;
 }
