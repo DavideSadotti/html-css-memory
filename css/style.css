@@ -10,7 +10,7 @@ body{
 }
 
 /* NAVBAR */
-.titolo{
+.title{
   font-size: 70px;
   color: white;
   text-align: center;
@@ -18,9 +18,58 @@ body{
 }
 
 /* MAIN */
+.container{
+  margin: auto;
+  width: 860px;
+  height: 1100px;
+}
 
+.row-1, .row-2, .row-3{
+  position: relative;
+}
+
+.row-1{
+  top: 50px
+}
+
+.row-2{
+  top: 400px;
+}
+
+.row-3{
+  top: 750px;
+}
+
+.box{
+  height: 300px;
+  width: 200px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 1px 1px 5px #888888;
+}
+
+.col-1{
+  position: absolute;
+  left: 0;
+}
+
+.col-2{
+  position: absolute;
+  left: 220px;
+}
+
+.col-3{
+  position: absolute;
+  left: 440px;
+}
+
+.col-4{
+  position: absolute;
+  left: 660px;
+}
 
 /* FOOTER */
 .made-by{
   text-align: center;
+  margin-bottom: 100px
 }
