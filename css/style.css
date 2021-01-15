@@ -10,66 +10,143 @@ body{
 }
 
 /* NAVBAR */
-.title{
-  font-size: 70px;
-  color: white;
-  text-align: center;
-  text-shadow: 1px 1px #000000;
-}
+  .title{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+  }
 
 /* MAIN */
-.container{
-  margin: auto;
-  width: 860px;
-  height: 1100px;
-}
+  .container{
+    margin: auto;
+    width: 860px;
+    height: 1100px;
+  }
 
-.row-1, .row-2, .row-3{
-  position: relative;
-}
+  .box{
+    height: 300px;
+    width: 200px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px #888888;
+    background-image: url("../img/pattern.png");
+    background-size: 350px;
+  }
 
-.row-1{
-  top: 50px
-}
+  /* POSIZIONAMENTO COLONNE-RIGHE */
+    .row-1, .row-2, .row-3{
+      position: relative;
+    }
 
-.row-2{
-  top: 400px;
-}
+    .row-1{
+      top: 50px
+    }
 
-.row-3{
-  top: 750px;
-}
+    .row-2{
+      top: 400px;
+    }
 
-.box{
-  height: 300px;
-  width: 200px;
-  background-color: white;
-  border-radius: 25px;
-  box-shadow: 1px 1px 5px #888888;
-}
+    .row-3{
+      top: 750px;
+    }
 
-.col-1{
-  position: absolute;
-  left: 0;
-}
+    .col-1{
+      position: absolute;
+      left: 0;
+    }
 
-.col-2{
-  position: absolute;
-  left: 220px;
-}
+    .col-2{
+      position: absolute;
+      left: 220px;
+    }
 
-.col-3{
-  position: absolute;
-  left: 440px;
-}
+    .col-3{
+      position: absolute;
+      left: 440px;
+    }
 
-.col-4{
-  position: absolute;
-  left: 660px;
-}
+    .col-4{
+      position: absolute;
+      left: 660px;
+    }
+
+  .card-text{
+    color: #E61986;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+    position: relative;
+    top: 220px
+  }
+
+  .face-up-card{
+    background-image: url("../img/air-balloon.png");
+    background-size: 180px 200px;
+    background-repeat: no-repeat;
+    background-position: 20px 30px;
+    color: #ff9800;
+  }
+
+  .hidden{
+    display: none;
+    height: 300px;
+    width: 200px;
+  }
+
+  .box:hover:not(.face-up-card){
+    background-image: none;
+  }
+
+  .box:hover .hidden{
+    display: block;
+  }
+
+  /* IMMAGINI CARTE */
+    .bicycle{
+      background-image: url("../img/bicycle.png");
+      background-size: 180px 200px;
+      background-repeat: no-repeat;
+      background-position: 10px 20px;
+    }
+
+    .cruise-ship{
+      background-image: url("../img/Cruise-Ship.png");
+      background-size: 180px;
+      background-repeat: no-repeat;
+      background-position: 10px 40px;
+    }
+
+    .submarine{
+      background-image: url("../img/Submarine.png");
+      background-size: 180px 200px;
+      background-repeat: no-repeat;
+      background-position: 10px 30px;
+    }
+
+    .tractor{
+      background-image: url("../img/Tractor.png");
+      background-size: 180px 200px;
+      background-repeat: no-repeat;
+      background-position: 10px 20px;
+    }
+
+    .tram{
+      background-image: url("../img/tram.png");
+      background-size: 180px 200px;
+      background-repeat: no-repeat;
+      background-position: 10px 20px;
+    }
+
+    .air-baloon{
+      background-image: url("../img/air-balloon.png");
+      background-size: 180px 200px;
+      background-repeat: no-repeat;
+      background-position: 20px 30px;
+    }
 
 /* FOOTER */
-.made-by{
-  text-align: center;
-  margin-bottom: 100px
-}
+  .made-by{
+    text-align: center;
+    margin-bottom: 50px
+  }
